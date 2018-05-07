@@ -1,0 +1,428 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* CLEAR FIX*/
+.clearfix:after {content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+.clearfix-wrapper:after {content: ".";
+	padding-bottom: 2em;}
+
+
+body{
+	background-color: #fafafa;
+	font-family: 'Montserrat', sans-serif;
+   transition: all .20s ease-in-out;
+   -moz-transition: all .20s ease-in-out;
+   -webkit-transition: all .20s ease-in-out;
+   -ms-transition: all .20s ease-in-out;
+   -o-transition: all .20s ease-in-out; 
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 70%;
+	max-width: 1200px;
+}
+
+header{
+  background: #FFF;
+  padding: 15px 0;
+  top: 0;
+  width: 100%;
+  border-bottom: 2px solid #D0D2D3;
+}
+
+header img{
+	width: 50px;
+	height: auto;
+	float: left;
+	margin-right: 15px;
+	margin-left: 15px;
+   transition: all .20s ease-in-out;
+   -moz-transition: all .20s ease-in-out;
+   -webkit-transition: all .20s ease-in-out;
+   -ms-transition: all .20s ease-in-out;
+   -o-transition: all .20s ease-in-out; 
+}
+
+header img:hover{
+	margin-left: 20px;
+}
+
+header h1{
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	line-height: 1em;
+	color: #000;
+	padding-top:10px;
+}
+
+header a, a:visited{
+	text-decoration: none;
+	color: #000;
+}
+
+
+section.intro{
+	text-align: center;
+	background-color: #F1738A;
+}
+
+.intro h1{
+	color: #fff;
+}
+
+.intro p{
+	color: #fff;
+}
+
+.intro p strong{
+	font-weight: 400;
+}
+
+.intro p em{
+	font-weight: 300;
+	font-style: italic;
+}
+
+.intro div.keyline{
+   border-top: 4px solid #fff;
+   width: 180px;
+   margin: 35px auto 30px auto;
+   height: 0px;
+}
+
+
+section.what-i-do{
+	text-align: center;
+	border-bottom: 2px solid #D0D2D3;
+}
+
+section.what-i-do h2{
+	color: #F1738A;
+	font-weight: 500;
+	font-size: 19px;
+	margin-bottom:10px;
+}
+
+section.what-i-do img{
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+	background-color: #D0D2D3;
+	margin-bottom: 40px;
+   transition: all .20s ease-in-out;
+   -moz-transition: all .20s ease-in-out;
+   -webkit-transition: all .20s ease-in-out;
+   -ms-transition: all .20s ease-in-out;
+   -o-transition: all .20s ease-in-out; 
+}
+
+section.what-i-do img:hover{
+	background-color: #E6E7E8;
+}
+
+.column-container{
+	width: 100%;
+	clear:both;
+	margin-top: 35px;
+}
+
+.column{
+	width: calc(33.3% - 50px);
+	float: left;
+	padding: 0 25px;
+}
+
+.column p{
+	font-size: 0.95em;
+	line-height: 1.65em;
+	font-weight: 400;
+}
+
+
+.half-column-left{
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.half-column-right{
+	width: 45%;
+	float: left;
+	margin-left: 5%;
+	text-align: left;
+}
+
+section.portfolio{
+	text-align: center;
+}
+
+
+
+section.skills-abilities{
+	text-align: center;
+	background-color: #BCD752;
+}
+
+section.skills-abilities h1{
+	color: #fff;
+}
+
+section.skills-abilities h2{
+	color: #000;
+	font-size: 1.25em;
+	margin-bottom: 7px;
+}
+
+div.outer-bar{
+	background-color: #7A903A;
+	width: 100%;
+	height: 20px;
+	border-radius: 14px;
+	border: solid 4px #7A903A;
+	margin-bottom: 35px;
+}
+
+div.inner-bar{
+	background-color: #fff;
+	height: 20px;
+	border-radius: 10px
+}
+
+.bar-web{
+	width: 90%;
+}
+
+.bar-html{
+	width: 80%;
+}
+
+.bar-photoshop{
+	width: 95%;
+}
+
+.bar-ae{
+	width: 83%;
+}
+
+.bar-layout{
+	width: 92%;
+}
+
+.bar-office{
+	width: 87%;
+}
+
+.half-column-right ul li:before {
+  content: "\276F";
+  color: #fff;
+  margin-right: 20px;
+}
+
+
+.half-column-right li {
+	margin: 25px 0;
+	font-size: 1.25em;
+}
+
+.half-column-right strong {
+	font-weight: 500;
+}
+
+
+section.resume{
+	text-align: center;
+	background-color: #E6E7E8;
+	padding: 25px 0;
+}
+
+section.resume a{
+   transition: all .20s ease-in-out;
+   -moz-transition: all .20s ease-in-out;
+   -webkit-transition: all .20s ease-in-out;
+   -ms-transition: all .20s ease-in-out;
+   -o-transition: all .20s ease-in-out; 
+	background-color: #F1738A;
+	color: #fff;
+	font-weight: 400;
+	font-size: 1.2em;
+	padding: 20px 35px;
+	text-decoration: none;
+}
+
+section.resume a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+section.resume a:hover{
+	background-color: #C5496B;
+}
+
+
+
+/****GLOBAL STYLES****/
+
+h1{
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 52px;
+	font-weight: 200;
+	color: #000;
+}
+
+
+p{
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 27px;
+	line-height: 42px;
+	font-weight: 200;
+	color: #000;
+	margin-top: 10px;
+}
+
+main .wrapper{
+	padding: 75px 0;
+}
+
+footer{
+	padding: 50px 0;
+	text-transform: uppercase;
+}
+
+footer p,
+div.portfolio-piece p{
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 0.85em;
+	line-height: 1.5em;
+	margin: 0;
+}
+
+footer a, a:visited, div.portfolio-piece a, div.portfolio-piece a:visited{
+	text-decoration: none;
+	color: #F1738A;
+   transition: all .20s ease-in-out;
+   -moz-transition: all .20s ease-in-out;
+   -webkit-transition: all .20s ease-in-out;
+   -ms-transition: all .20s ease-in-out;
+   -o-transition: all .20s ease-in-out;
+}
+
+footer a:hover, div.portfolio-piece a:hover{
+	color: #C5496B;
+}
+
+div.portfolio-piece {
+	margin-top:75px;
+}
+
+div.portfolio-piece:first-child {
+	margin-top:0;
+}
+
+div.portfolio-piece p{
+	margin-top:2em;
+}
+
+
+
+/****SLIDER****/
+
+.rotator {
+  background-color:white;
+  position:relative;
+  width:75%;
+  height:auto !important;
+  margin:0px auto 10px;
+  padding-bottom: 50%;
+}
+
+.rotator img{
+	width:100%;
+	height:auto;
+}
+
+.rotator .item {
+  display:block;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+
+/****END SLIDER****/
+
+
+@media screen and (max-width:68em){
+
+.column{
+	width: 100%;
+	float: none;
+	padding: 0;
+}
+
+.column p{
+	font-size: 0.95em;
+	line-height: 1.65em;
+	font-weight: 400;
+	margin: 0 auto 65px auto;
+	width: 65%;
+}
+
+
+}
+
+@media screen and (max-width:47em){
+.half-column-left{
+	width: 100%;
+	float: none;
+	margin-right: 0;
+	margin-bottom: 75px;
+}
+
+.half-column-right{
+	width: 100%;
+	float: none;
+	margin-left: 0;
+}
+}
+
+@media screen and (max-width:40em){
+
+.column p{
+	width: 85%;
+}
+
+h1{
+	font-size: 42px;
+}
+
+
+p{
+	font-size: 22px;
+	line-height: 36px;
+}
+
+.wrapper{
+	width:90%;
+}
+
+}
+
+
